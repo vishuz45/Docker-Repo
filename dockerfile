@@ -3,7 +3,7 @@ RUN apt-get update
 RUN apt install apache2 -y
 WORKDIR  /var/www/html/
 RUN touch index.html
-RUN echo "my name viishal zagade" > index.html
+RUN echo "my name vishal zagade" > index.html
 EXPOSE 80
 CMD ["apache2ctl", "-D", "FOREGROUND"]
  
